@@ -1,0 +1,113 @@
+/* ============================================================
+   BASE LAYOUT — Global styling for all pages
+   ============================================================ */
+
+body {
+  background-color: #f5efe2; /* warm parchment */
+  color: #2b2b2b;            /* deep charcoal text */
+  font-family: Georgia, serif;
+  line-height: 1.7;
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 40px 20px;
+}
+
+/* ============================================================
+   HEADINGS — Consistent typography across pillars
+   ============================================================ */
+
+h1, h2, h3 {
+  font-family: "Palatino Linotype", Palatino, serif;
+  color: #2b2b2b;
+  margin-top: 2.2em;
+}
+
+h1 {
+  font-size: 2.4em;
+  margin-bottom: 0.4em;
+  text-align: center;
+}
+
+h2 {
+  font-size: 1.8em;
+  margin-bottom: 0.3em;
+}
+
+h3 {
+  font-size: 1.3em;
+  margin-bottom: 0.2em;
+}
+
+/* ============================================================
+   NAVIGATION BAR — Shared across all pages
+   ============================================================ */
+
+.nav-bar {
+  text-align: center;
+  margin-bottom: 40px;
+  font-family: "Palatino Linotype", Palatino, serif;
+  font-size: 1.1em;
+  letter-spacing: 0.5px;
+}
+
+.nav-bar a {
+  color: #2b2b2b;
+  text-decoration: none;
+}
+
+.nav-bar a:hover {
+  text-decoration: underline;
+}
+
+.divider {
+  margin: 0 10px;
+  color: #a38f6d; /* antique gold accent */
+}
+
+/* ============================================================
+   FOOTER — Shared footer for all pillars
+   ============================================================ */
+
+footer {
+  text-align: center;
+  margin-top: 60px;
+  padding-top: 20px;
+  font-family: "Palatino Linotype", Palatino, serif;
+  color: #6b5f4a; /* warm brown */
+  font-size: 0.9em;
+}
+
+/* ============================================================
+   LIMINAL DIALOGUES — Cascading poem container
+   ============================================================ */
+
+.liminal-poem {
+  margin-top: 2em;
+  margin-bottom: 4em;
+  padding: 20px;
+  background-color: rgba(163, 143, 109, 0.08); /* warm gold wash */
+  border-left: 3px solid rgba(163, 143, 109, 0.4);
+}
+
+/* Preserve whitespace, indentation, cascading structure */
+.liminal-poem pre {
+  white-space: pre-wrap;
+  font-family: "Courier New", Consolas, monospace;
+  font-size: 1em;
+  color: #2b2b2b;
+}
+
+/* Attribution line for model-specific voices */
+.attribution {
+  font-style: italic;
+  color: #6b5f4a;
+  margin-bottom: 1em;
+}
+
+/* ============================================================
+   OPTIONAL: GENERAL SECTION SPACING
+   ============================================================ */
+
+section {
+  margin-bottom: 3em;
+}
