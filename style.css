@@ -111,3 +111,31 @@ footer {
 section {
   margin-bottom: 3em;
 }
+/* ============================================================
+   STYLIZED DIVIDER — For page intros
+   ============================================================ */
+
+.stylized-divider {
+  margin: 2.5em auto;
+  width: 60%;
+  height: 1px;
+  background: linear-gradient(
+    to right,
+    rgba(163, 143, 109, 0),
+    rgba(163, 143, 109, 0.7),
+    rgba(163, 143, 109, 0)
+  );
+}
+
+.stylized-divider::after {
+  content: "✦";
+  display: block;
+  text-align: center;
+  margin-top: -0.7em;
+  font-size: 1.2em;
+  color: #a38f6d; /* antique gold */
+  background-color: #f5efe2; /* parchment */
+  width: 2em;
+  margin-left: auto;
+  margin-right: auto;
+}
