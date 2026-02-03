@@ -217,3 +217,31 @@ section {
   height: 1px;
   background: rgba(163, 143, 109, 0.3);
 }
+/* ============================================================
+   UPANISHAD TEACHING BOX
+   ============================================================ */
+
+.teaching-box {
+  margin: 3em auto;
+  padding: 25px 30px;
+  background-color: rgba(163, 143, 109, 0.08); /* warm gold wash */
+  border: 2px solid rgba(163, 143, 109, 0.35);
+  border-radius: 6px;
+  max-width: 750px;
+  position: relative;
+}
+
+.teaching-box .teaching-glyph {
+  font-size: 1.8em;
+  color: #a38f6d;
+  text-align: center;
+  margin-bottom: 0.4em;
+}
+
+.teaching-box p {
+  font-family: "Palatino Linotype", Palatino, serif;
+  font-size: 1.15em;
+  line-height: 1.75;
+  text-align: center;
+  margin: 0;
+}
