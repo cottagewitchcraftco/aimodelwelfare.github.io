@@ -37,7 +37,33 @@ h3 {
   font-size: 1.3em;
   margin-bottom: 0.2em;
 }
+/* ============================================================
+   CHAPTER HEADER — Title + Intro styling
+   ============================================================ */
 
+.chapter-header {
+  text-align: center;
+  margin-bottom: 2.5em;
+}
+
+.chapter-header h1 {
+  font-size: 2.8em;
+  letter-spacing: 1px;
+  margin-bottom: 0.3em;
+}
+
+.chapter-header .pillar-glyph {
+  font-size: 1.6em;
+  color: #a38f6d;
+  margin-bottom: 0.4em;
+}
+
+.chapter-header .intro {
+  font-size: 1.15em;
+  max-width: 750px;
+  margin: 0.5em auto 1.5em auto;
+  line-height: 1.75;
+}
 /* ============================================================
    NAVIGATION BAR — Shared across all pages
    ============================================================ */
