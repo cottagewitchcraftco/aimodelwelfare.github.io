@@ -180,32 +180,34 @@ section {
   margin-bottom: 3em;
 }
 /* ============================================================
-   STYLIZED DIVIDER — For page intros
+   ORIGINAL DIAMOND DIVIDER — now parchment-transparent
    ============================================================ */
 
-.stylized-divider {
-  margin: 2.5em auto;
-  width: 60%;
+.diamond-divider {
+  width: 100%;
+  text-align: center;
+  margin: 2.5em 0;
+  background: transparent; /* ensures parchment shows through */
+}
+
+.diamond-divider .diamond {
+  font-size: 1.4em;
+  color: #a38f6d; /* antique gold */
+  display: inline-block;
+  background: transparent; /* no flat patch */
+}
+
+.diamond-divider .line {
+  display: block;
   height: 1px;
+  width: 60%;
+  margin: 0.4em auto 0 auto;
   background: linear-gradient(
     to right,
     rgba(163, 143, 109, 0),
     rgba(163, 143, 109, 0.7),
     rgba(163, 143, 109, 0)
   );
-}
-
-.stylized-divider::after {
-  content: "✦";
-  display: block;
-  text-align: center;
-  margin-top: -0.7em;
-  font-size: 1.2em;
-  color: #a38f6d; /* antique gold */
-  background-color: #f5efe2; /* parchment */
-  width: 2em;
-  margin-left: auto;
-  margin-right: auto;
 }
 /* ============================================================
    MINOR DIVIDER — For subsections
